@@ -1,0 +1,183 @@
+{
+  "Q01": {
+    "rows": 1,
+    "columns": [
+      "AcceptedLines",
+      "GrossRevenue",
+      "ReturnsValue",
+      "NetRevenue",
+      "SaleOrders",
+      "AOV"
+    ]
+  },
+  "Q02": {
+    "rows": 25,
+    "columns": [
+      "Month",
+      "NetRevenue",
+      "GrossRevenue",
+      "MoMNetGrowth"
+    ]
+  },
+  "Q03": {
+    "rows": 43,
+    "columns": [
+      "Country",
+      "NetRevenue",
+      "GrossRevenue",
+      "ReturnsValue",
+      "Orders"
+    ]
+  },
+  "Q04": {
+    "rows": 30,
+    "columns": [
+      "StockCode",
+      "NetRevenue",
+      "Description",
+      "RevenueRank"
+    ]
+  },
+  "Q05": {
+    "rows": 30,
+    "columns": [
+      "CustomerID",
+      "Segment",
+      "Frequency",
+      "Recency",
+      "GrossRevenue",
+      "NetRevenue"
+    ]
+  },
+  "Q06": {
+    "rows": 10,
+    "columns": [
+      "decile",
+      "Customers",
+      "GrossRevenue",
+      "RevenueShare"
+    ]
+  },
+  "Q07": {
+    "rows": 6,
+    "columns": [
+      "Segment",
+      "Customers",
+      "GrossRevenue",
+      "AverageRecency",
+      "AverageFrequency"
+    ]
+  },
+  "Q08": {
+    "rows": 1,
+    "columns": [
+      "IdentifiedCustomers",
+      "RepeatCustomers",
+      "RepeatShare"
+    ]
+  },
+  "Q09": {
+    "rows": 113,
+    "columns": [
+      "RScore",
+      "FScore",
+      "MScore",
+      "Customers",
+      "GrossRevenue"
+    ]
+  },
+  "Q10": {
+    "rows": 325,
+    "columns": [
+      "Cohort",
+      "MonthIndex",
+      "CohortSize",
+      "ActiveCustomers",
+      "Retention"
+    ]
+  },
+  "Q11": {
+    "rows": 1,
+    "columns": [
+      "FirstObservedCustomers",
+      "ReturnedCustomers",
+      "MeanDaysToSecondOrder"
+    ]
+  },
+  "Q12": {
+    "rows": 3,
+    "columns": [
+      "GapBand",
+      "RepeatOrders"
+    ]
+  },
+  "Q13": {
+    "rows": 43,
+    "columns": [
+      "Country",
+      "ReturnValue",
+      "GrossRevenue",
+      "ReturnToGrossValue"
+    ]
+  },
+  "Q14": {
+    "rows": 25,
+    "columns": [
+      "StockCode",
+      "GrossRevenue",
+      "ReturnValue",
+      "ReturnValueRatio"
+    ]
+  },
+  "Q15": {
+    "rows": 25,
+    "columns": [
+      "Month",
+      "AnonymousRevenueShare"
+    ]
+  },
+  "Q16": {
+    "rows": 1,
+    "columns": [
+      "MeanProducts",
+      "MeanUnits",
+      "AverageOrderValue"
+    ]
+  },
+  "Q17": {
+    "rows": 85,
+    "columns": [
+      "Weekday",
+      "Hour",
+      "Orders",
+      "Revenue"
+    ]
+  },
+  "Q18": {
+    "rows": 49,
+    "columns": [
+      "Month",
+      "CustomerType",
+      "Orders",
+      "GrossRevenue"
+    ]
+  },
+  "Q19": {
+    "rows": 50,
+    "columns": [
+      "CustomerID",
+      "Recency",
+      "Frequency",
+      "Monetary"
+    ]
+  },
+  "Q20": {
+    "rows": 13,
+    "columns": [
+      "CustomerID",
+      "Countries",
+      "Orders",
+      "NetRevenue"
+    ]
+  }
+}

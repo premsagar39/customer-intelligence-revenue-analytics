@@ -1,0 +1,37 @@
+{
+  "engine": "MySQL 8.0.46",
+  "queries_executed": 20,
+  "all_kpi_reconciliations_pass": true,
+  "checks": {
+    "GrossRevenue": {
+      "python": 20476260.448,
+      "mysql": 20476260.448,
+      "matches": true
+    },
+    "ReturnsValue": {
+      "python": 1462424.1800000002,
+      "mysql": 1462424.18,
+      "matches": true
+    },
+    "NetRevenue": {
+      "python": 19013836.268,
+      "mysql": 19013836.268,
+      "matches": true
+    },
+    "SaleOrders": {
+      "python": 40077,
+      "mysql": 40077.0,
+      "matches": true
+    },
+    "AcceptedLines": {
+      "python": 1027016,
+      "mysql": 1027016.0,
+      "matches": true
+    }
+  },
+  "additional_checks": {
+    "purchasing_customer_denominator": true,
+    "top_decile_share": true,
+    "full_observed_cohort_grid": true
+  }
+}

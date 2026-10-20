@@ -1,0 +1,522 @@
+[
+  {
+    "path": ".env.example",
+    "bytes": 91,
+    "sha256": "1a65b53012b40c043b834c9ae519a89e22c215661b86dfb31a3a304771de09e8"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 276,
+    "sha256": "83ef78c3d774258c495f5eb931203e4af9e1376261281264b722177ab9eaa6a3"
+  },
+  {
+    "path": "data/exports/cohort_retention.csv",
+    "bytes": 13536,
+    "sha256": "149a458e348b5381c1118982f4a92b4473d51b57c0ded30a9428a0ad7ff9ecd2"
+  },
+  {
+    "path": "data/exports/country_revenue.csv",
+    "bytes": 2052,
+    "sha256": "f5931407e30b0ae4c3cb28f023d808e6654df8f021b5a61550ee19c0dcec7c71"
+  },
+  {
+    "path": "data/exports/customer_segments.csv",
+    "bytes": 367,
+    "sha256": "44aa56e174ef9fa6043cf3c2e07ca1a2023a49c885404c53d4a3624ea783354a"
+  },
+  {
+    "path": "data/exports/monthly_revenue.csv",
+    "bytes": 2271,
+    "sha256": "eaf4aa8184d22170b432179e111689efbb14851f1920f5fa3758c99873428b5f"
+  },
+  {
+    "path": "data/exports/product_performance.csv",
+    "bytes": 356388,
+    "sha256": "12bc6dfced736d7811a7167875df90f8b74af2be6b2b0942f640c16983f32cf2"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1176,
+    "sha256": "e99ee86dbf4795af594bc94ef4529bb3d18141bfd9a15fe479728a4775668aa6"
+  },
+  {
+    "path": "notebooks/01_analysis.ipynb",
+    "bytes": 6939,
+    "sha256": "1244750aa2d265432a25766270c29c5c0a29781c966cc1cfa2171015a863613a"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.pbip",
+    "bytes": 193,
+    "sha256": "3117e3c8c52b0655d818d4b9e57553224f2bf43b77455a53d5eb74ce4bc8d39f"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/.platform",
+    "bytes": 315,
+    "sha256": "b7d9aa99a6d4f048b2b55afb7c0b83dec83004f62cd47a7adbb1db8d3350241e"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/page.json",
+    "bytes": 604,
+    "sha256": "9dcf056f0dbc9263f6fa881175b7985b1d71e6deb13d6f4b331dc0a23258365b"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/0b538dcffd2045188502/visual.json",
+    "bytes": 1460,
+    "sha256": "dce91f7fd6254449d0c2a3ee40d21c618d0014c4e8b23b7ccc5418ddac2e1bea"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/206f63a0d3c1478c9977/visual.json",
+    "bytes": 3702,
+    "sha256": "e3c54ea21967e0db23a2034142b90950db0fd4b764239d68f9bb63b2bddc2593"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/23f86ddcb472453c80b2/visual.json",
+    "bytes": 3641,
+    "sha256": "0ddc46a60fdb5033a3b6c6b14b583cdb7b7a1d5ec9997e3c059e0025055f92ed"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/301ccb2c12084738b609/visual.json",
+    "bytes": 4001,
+    "sha256": "11d7c1448aa3ffcabd5c46ea95773b674129d311367303d5f3a3e904a38e38cb"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/326b70bc93c94078a9fa/visual.json",
+    "bytes": 3962,
+    "sha256": "504f6e444f82ec55c4c1287dc002fa607551ab7c9e7704da28bbf08b877d9587"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/63323deded8f4ab3ab41/visual.json",
+    "bytes": 3248,
+    "sha256": "edc6c67916a9d0e8ec260c4eb71adbd1593c921e2fca5456f44b1aba0ff03bc4"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/6de1ae9afab94b69a780/visual.json",
+    "bytes": 3646,
+    "sha256": "c0224aa672251cc62eb369a12413de67b540972aebe583f5b679c124930d787e"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/75367301c2a14425bb91/visual.json",
+    "bytes": 3676,
+    "sha256": "e046edc816f01f01426edbe47a246e542d2fcef13d4c256412ff716f2b9cc230"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/932aa53677bc4a5a9d63/visual.json",
+    "bytes": 3272,
+    "sha256": "f8c936debcd03adb30de7d49d506782669ff2001456811fd1162602a3411c881"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/a9411f7b082544648fe7/visual.json",
+    "bytes": 4462,
+    "sha256": "7fea4309a4f238b74315269adf9290a035a3311b271ea7c44bc1713ce0b0ab7b"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/c88093196c064a4aa438/visual.json",
+    "bytes": 1563,
+    "sha256": "20fb39f527f95a1910f0ae524d63b8322fce8f95f1beefa935e08ce69937edf4"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/efb4dae59e68460ba984/visual.json",
+    "bytes": 3667,
+    "sha256": "eda3e2408de8dc1cf5f35324032c2c6a4ec66772e4b2d5630baf1e2f6e569ff7"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/f73b2e133fd040e59fc8/visual.json",
+    "bytes": 3635,
+    "sha256": "edd662c2a481be547c4618ddf934ce96424436ab925a2b0ff843736719e15534"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/page.json",
+    "bytes": 611,
+    "sha256": "c97b3dff04e1a09d3e6d9f6d5e2e1f39a87ad4c68bb4beec4e0a9f459065d9f3"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/186fa96f926e4e359139/visual.json",
+    "bytes": 3696,
+    "sha256": "068f35e8093e4688d634aaeabd02e4860bda635156008884808b66fa4215daab"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/413e116828a441538e28/visual.json",
+    "bytes": 4038,
+    "sha256": "bd8aa09270a482521a2968125a08720cbb60ac70c9891aebef68c8c62a957e5d"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/570e158a09424a62b2e6/visual.json",
+    "bytes": 3686,
+    "sha256": "7b9d803bb4d34ac4a81ea0b0591e0329f38298c1cfb342af4efba70f1eebb4c8"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/6ee6ada7051246cbb8aa/visual.json",
+    "bytes": 3680,
+    "sha256": "8f83ee154f0a235f381544da0807a3fac853f3b5481c8bd9269f972e1c17a4ba"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/7991436f0a7049079999/visual.json",
+    "bytes": 1467,
+    "sha256": "32bad6b9aa656743be56fb2681dfa62d6ebbd9446b8d291b95e7136d79926347"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/9879b1eeab8a4e70b3d4/visual.json",
+    "bytes": 3711,
+    "sha256": "d688ab23b2268538bdb144fb6a5d537a02f33f6ced882aa74c1a0aac7148779b"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/a3d5dd9f97e744748853/visual.json",
+    "bytes": 1562,
+    "sha256": "4ad224ce4c86a713dc22d61a69ac5a01031e4dd7e9f8b7f55b425faf245119eb"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/ad8c02359d364ab4a535/visual.json",
+    "bytes": 4851,
+    "sha256": "42e42c11b06fe1aa7dee7e123e5477afbef505062d86034462d4365a0236472e"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/b883a7b11d8f4e838f32/visual.json",
+    "bytes": 4188,
+    "sha256": "b7c856020cd38471c1410b7ac6f56c8194df39404c92c9ac4da4e6bd8128b359"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/f04c4550601c479ca18f/visual.json",
+    "bytes": 3266,
+    "sha256": "04303592456863d3defc7421b5a1addd96fbad35af8fd02bb2327339d7e8f472"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/page.json",
+    "bytes": 613,
+    "sha256": "e94bee91a95de90955412aa485ab8b1d6e26e9f4dd89a5c9d4ea791dc1a257ab"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/3734b28592a04e158e17/visual.json",
+    "bytes": 3272,
+    "sha256": "af043924634043a980744669d3a306e0e68afa69abdf40a8e6f218b949cb1e31"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/4c7a4cbd8f18411ea2ca/visual.json",
+    "bytes": 1469,
+    "sha256": "fafbb15e23790ff6c796ec69895c09101d5a60b984b8a1c1829d2a4e6db7e2c5"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/6e957dfd23a4495b8fbf/visual.json",
+    "bytes": 3248,
+    "sha256": "04ef2e33b3162b502cf084aeca4d5d2d8f44b8d6fb7dd1c4273781e8ac2d38b9"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/7f075eb17f7a4f78b039/visual.json",
+    "bytes": 3616,
+    "sha256": "53db733b13c49f3e28ab432b29736f76908d4e5f300a8021b23cba81f510508b"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/821bfa980ba047b3a13a/visual.json",
+    "bytes": 4593,
+    "sha256": "8aa4d8ad63d0dda524a51738c903677a57823434d9d5432f7d60bf6c7dd5b9f6"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/872b13b397594e049693/visual.json",
+    "bytes": 4920,
+    "sha256": "0d5a5e82f5a494293d5fd4b64526eb82cfd3c72234ef705dccc8f90f8193c900"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/8cfff1b0d4c64ba98358/visual.json",
+    "bytes": 3656,
+    "sha256": "484a5e898deec136fdf959b62f4f2075eedbb08a914443c7a5a2b5ad96effc62"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/a03b368830fe43e0adcc/visual.json",
+    "bytes": 3641,
+    "sha256": "34ec4bd1c10906c18dab451256f7985a99f0af60064118d32089d6f17a06b010"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/a629ac277aac4e52acb5/visual.json",
+    "bytes": 4028,
+    "sha256": "d5604864833ede5b8520115418e2376f762e465fa027881413669c7211a37c03"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/c5d2588f3b604d459114/visual.json",
+    "bytes": 3655,
+    "sha256": "6e6761501376416822e8d77492154719e78f2be629ef0414c47e090df1542889"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/feb0b8b97477413fb8ef/visual.json",
+    "bytes": 1586,
+    "sha256": "25937c75be67ea9da04ccf24b58c049c676d888bd7bbf0489e492d1f39433944"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/pages/pages.json",
+    "bytes": 210,
+    "sha256": "f073ee2f8c1b152a907ada64ac1095caf5198451ff1d42720146ff67c93de114"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/report.json",
+    "bytes": 203,
+    "sha256": "8370abf3af3cb79df265e87f7fca836be65e2fe43e8645d04f423ac231be0284"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition/version.json",
+    "bytes": 152,
+    "sha256": "c8bdd966a85f1eaab4312d2096b6d7b508243e4d7bc5a4d25af3cfcb1056a4e7"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.Report/definition.pbir",
+    "bytes": 135,
+    "sha256": "760ed068a4fb85272b498591151d8800e7d6a32fed42a3cb29bfb6c442f69a78"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.SemanticModel/.platform",
+    "bytes": 322,
+    "sha256": "8b2dac8a3c5a8cbcd43421738d28d9219b9bb839eaf0f3b88c43aaa8de46ae31"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.SemanticModel/definition.pbism",
+    "bytes": 43,
+    "sha256": "ed99ec078efd2ff27fc1c65cc97902138d7d3c438acdb7770ae37dc71c7f06c8"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.SemanticModel/diagramLayout.json",
+    "bytes": 1843,
+    "sha256": "bf9289210b93ad6f05a1dd3a1f30820a14ef3ce69c7b6185a8bdd82ed7eda405"
+  },
+  {
+    "path": "powerbi/Customer_Intelligence.SemanticModel/model.bim",
+    "bytes": 43449,
+    "sha256": "ad30cf2e5810fede0e0ba20a838edc736fe567fb7acfc385359b46affbe53620"
+  },
+  {
+    "path": "powerbi/MEASURE_DEFINITIONS.md",
+    "bytes": 3167,
+    "sha256": "ce3afc27c9a9aeb8369fa3bd5ab19c7b5beb6610417e8676d528c93eefb44da1"
+  },
+  {
+    "path": "powerbi/measures.dax",
+    "bytes": 2018,
+    "sha256": "80bfba3fe7dfb22b7b4851ee1a53f0b49aca84cdc54e9c695619f8c60de32746"
+  },
+  {
+    "path": "powerbi/OPEN_REPORT.md",
+    "bytes": 598,
+    "sha256": "abc63e3166e001cffe492ecd99ef2e76771c908f94afd9c87a18ef6d1b4c38e5"
+  },
+  {
+    "path": "pytest.ini",
+    "bytes": 64,
+    "sha256": "7791f8a30002e1894c931553bec9826e7d7db30bc62b235c18909648837c420d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3598,
+    "sha256": "089f7eabd0b439116f94d53c2ce663af21c2c9b8e16aaca4da453715a2c93448"
+  },
+  {
+    "path": "reports/BUSINESS_FINDINGS.md",
+    "bytes": 1339,
+    "sha256": "c52c6db14a0dedceb1f9122bb6cd45181e18fb586f7af632305c1f9b89570774"
+  },
+  {
+    "path": "reports/DATA_DICTIONARY.md",
+    "bytes": 1238,
+    "sha256": "0ddddddd437bfbcf79ccc01c03ca59c81839345c9a61c87dc5ae763c2b684f76"
+  },
+  {
+    "path": "reports/DATA_QUALITY.md",
+    "bytes": 2014,
+    "sha256": "86558996b6d6a62c22f5a7b9c4c3030f3d828b79047d2109bf787fe19f782dc0"
+  },
+  {
+    "path": "reports/figures/native_customer_page.png",
+    "bytes": 142371,
+    "sha256": "776cc0462b10efe956671b588070aac13c7676dfb0da4545475ec82ed69eb22a"
+  },
+  {
+    "path": "reports/figures/portfolio_overview.png",
+    "bytes": 178597,
+    "sha256": "fd19fb55361bf3785988f42a8ab3ac690f00a0e4bc7494272d433f9d3f8412b6"
+  },
+  {
+    "path": "reports/Interactive_Dashboard.html",
+    "bytes": 4916832,
+    "sha256": "f8add2beceb6ffcd55a2945529b775d4b936c5feba8e080834c43d0529c14caa"
+  },
+  {
+    "path": "reports/INTERVIEW_GUIDE.md",
+    "bytes": 1443,
+    "sha256": "8d692374038aef1523b0a7cde3513fa6d17cefca18dc7cf32ae4f130ad3756c9"
+  },
+  {
+    "path": "reports/metrics.json",
+    "bytes": 827,
+    "sha256": "24f8de6e090a42a914fa7e14ab20e3c99e3d2c0efa1f6e32a8b794870872144d"
+  },
+  {
+    "path": "reports/mysql_validation.json",
+    "bytes": 824,
+    "sha256": "803be1ea76c0256a94c9f8db0b0b8762f14b0d0de5b803566df230deb334144a"
+  },
+  {
+    "path": "reports/PUBLICATION_CHECKLIST.md",
+    "bytes": 698,
+    "sha256": "96889f2fa6a4f9b5727849ffd94134b6aa60aa2362aade61702ad5fbaac237e0"
+  },
+  {
+    "path": "reports/QA_STATUS.md",
+    "bytes": 1093,
+    "sha256": "8087d56ef16361153f2e507b0dbdf02d92c4c2577fd2ea25ec3d0e9c798b7c81"
+  },
+  {
+    "path": "reports/report_schema_validation.json",
+    "bytes": 144,
+    "sha256": "305c50c835b4dc072b15e78a6f513b7ea3a261f4ede182ce822d91c7a0e6c6de"
+  },
+  {
+    "path": "reports/sql_execution.json",
+    "bytes": 2910,
+    "sha256": "d4ad91052c48c73d20ff01baaeddaf97055422b556ce0a6b546694dae3a388e4"
+  },
+  {
+    "path": "reports/sql_results/q01.csv",
+    "bytes": 144,
+    "sha256": "27fcc7670374dc9ea95634371cfaaf1a24af30c4335908da5912a0e5d87cb5c5"
+  },
+  {
+    "path": "reports/sql_results/q02.csv",
+    "bytes": 1304,
+    "sha256": "356114f045a54d5e9df195d72b57d71a5009ba10712ab8bb34889232e1b79803"
+  },
+  {
+    "path": "reports/sql_results/q03.csv",
+    "bytes": 2188,
+    "sha256": "1f8f526dc8b4e919b53dcd409363f64abb57ac6815955885b5050ab83c0128d9"
+  },
+  {
+    "path": "reports/sql_results/q04.csv",
+    "bytes": 1483,
+    "sha256": "a014248b23064e70e6d1a2a02ed5007849ea273f5e1baca3c5d681dcfd2773fa"
+  },
+  {
+    "path": "reports/sql_results/q05.csv",
+    "bytes": 1556,
+    "sha256": "6ab43a91e19496b79d85c0eb81c465bdd60ba4e209b33477300825b9321cbe02"
+  },
+  {
+    "path": "reports/sql_results/q06.csv",
+    "bytes": 388,
+    "sha256": "068c80a9612ecbfe0813f9ebafaa8b18e2293043b2eb1466501d0f564c662bca"
+  },
+  {
+    "path": "reports/sql_results/q07.csv",
+    "bytes": 347,
+    "sha256": "c35c39be654ff37228406ed95b8cfa379af0aa2ff5b23b82d9ffefbd40ad0f7d"
+  },
+  {
+    "path": "reports/sql_results/q08.csv",
+    "bytes": 67,
+    "sha256": "fc8860d5159bc95636d15ae473f1e0848e2db7395fcab34e468d88e91d9409b0"
+  },
+  {
+    "path": "reports/sql_results/q09.csv",
+    "bytes": 2607,
+    "sha256": "28504ca1016dbd8614ce4bb60d17612d8ca411494fac696523e126518d36d134"
+  },
+  {
+    "path": "reports/sql_results/q10.csv",
+    "bytes": 9296,
+    "sha256": "1e152ff854e5f705cd16b5639f94f2ce608dad2e2af071c6082e4677099515b9"
+  },
+  {
+    "path": "reports/sql_results/q11.csv",
+    "bytes": 83,
+    "sha256": "fe71eae7c0474ea4b3e584dc4ae9d61ddb8944835671654d91a8ab4b21f8736e"
+  },
+  {
+    "path": "reports/sql_results/q12.csv",
+    "bytes": 71,
+    "sha256": "87ae7a9c9dca3660327a254bea4bd02023055317cb95c5899383a7d41805b5cb"
+  },
+  {
+    "path": "reports/sql_results/q13.csv",
+    "bytes": 2032,
+    "sha256": "760f3692999188bcc5f5511ce9777b32edf94c79bf552c831e2b638adeb94717"
+  },
+  {
+    "path": "reports/sql_results/q14.csv",
+    "bytes": 1164,
+    "sha256": "5494ec75e53341720d97ef36f0d45bc7796defbcf89d587c619553475757123d"
+  },
+  {
+    "path": "reports/sql_results/q15.csv",
+    "bytes": 579,
+    "sha256": "918da5d94fef0689d9866a36ee200c3f3e35aa3f91496fbf0a07fbc3bffc6145"
+  },
+  {
+    "path": "reports/sql_results/q16.csv",
+    "bytes": 75,
+    "sha256": "ebce624866bbb13f16d6cd8301d2b02ab9f41093a4606d543090c3a8d47b7eaa"
+  },
+  {
+    "path": "reports/sql_results/q17.csv",
+    "bytes": 1963,
+    "sha256": "8fde435a4bec17219fda1d31c67bdf2471b7958072e192ae333393f07ff585cc"
+  },
+  {
+    "path": "reports/sql_results/q18.csv",
+    "bytes": 1982,
+    "sha256": "5cde04524f32b3331e7278d4946f32121c2da0d8ccca1b0db29079cfeed2600d"
+  },
+  {
+    "path": "reports/sql_results/q19.csv",
+    "bytes": 1331,
+    "sha256": "dbc432c447410c69718794a29fc657833041bcb86d4ecc5031742564eada0231"
+  },
+  {
+    "path": "reports/sql_results/q20.csv",
+    "bytes": 343,
+    "sha256": "7156493e7796bb794f35da24d858e057e52ae577604a4fc26a243f0a8edc491f"
+  },
+  {
+    "path": "reports/unit_validation.json",
+    "bytes": 130,
+    "sha256": "d242b5072559b46d6f6dedab36ad7b15c9d526e778cee1a749144f2955c9efc8"
+  },
+  {
+    "path": "requirements-tested.txt",
+    "bytes": 167,
+    "sha256": "dc93e794a26159bbe8b1bb889c358eda516827903db0c34b193c4a60526f6481"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 160,
+    "sha256": "889f1d8eebab73a287b5ca4614855ad3b0e4f295f1d0adec86fec8711e94d392"
+  },
+  {
+    "path": "sql/analysis_queries.sql",
+    "bytes": 6865,
+    "sha256": "76cf19643c9ace8b5a2205e12868b9ad1729bbe1d38a8a4b51a0f693e753873f"
+  },
+  {
+    "path": "sql/schema.sql",
+    "bytes": 1960,
+    "sha256": "3416e2d93bc88b024052f6a4ea2c60f9215abe4e3b983f7a411d2033c7fbaab4"
+  },
+  {
+    "path": "src/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "src/database.py",
+    "bytes": 3268,
+    "sha256": "9d89ef9d2b07cede5f84016ecb37f1bf5c3a29e54e3d2a3816713f426524ef38"
+  },
+  {
+    "path": "src/pipeline.py",
+    "bytes": 9894,
+    "sha256": "e3488197e2c2a4999bb4b0b3c05becc949f618bd9092ce769503b7d72c074b06"
+  },
+  {
+    "path": "src/schema.json",
+    "bytes": 1051,
+    "sha256": "d887e60c5a9f5f50170f43ec4f3d83c3ca1377dcd87f628643244ee9b4a71462"
+  },
+  {
+    "path": "tests/test_pipeline.py",
+    "bytes": 1864,
+    "sha256": "e54ea8fef38f4266780f7e84efda6e293fb6451380bd663fad358fe9e15d1865"
+  }
+]

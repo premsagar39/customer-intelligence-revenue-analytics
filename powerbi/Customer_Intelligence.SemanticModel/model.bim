@@ -1,0 +1,1184 @@
+{
+  "compatibilityLevel": 1606,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"DataRoot\", \"Products\", \"Customers\", \"Dates\", \"Transactions\", \"Cohorts\"]"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "Entities": {
+              "cohorts.cohortmonth": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cohorts",
+                    "ConceptualProperty": "CohortMonth"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "CohortMonth": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "cohorts.monthindex": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Cohorts",
+                    "ConceptualProperty": "MonthIndex"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "MonthIndex": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.customerid": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "CustomerID"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "CustomerID": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.frequency": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "Frequency"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Frequency": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.monetary": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "Monetary"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Monetary": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.recency": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "Recency"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Recency": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "customers.segment": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Customers",
+                    "ConceptualProperty": "Segment"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Segment": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "dates.month": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Dates",
+                    "ConceptualProperty": "Month"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Month": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.description": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "Description"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Description": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "products.productlabel": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Products",
+                    "ConceptualProperty": "ProductLabel"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "ProductLabel": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.active_products": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Active Products"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Active Products": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.anonymous_revenue_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Anonymous Revenue Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Anonymous Revenue Share": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.average_order_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Average Order Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Average Order Value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.cohort_retention": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Cohort Retention"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Cohort Retention": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.country": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Country"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Country": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.gross_revenue": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Gross Revenue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Gross Revenue": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.markets": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Markets"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Markets": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.net_revenue": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Net Revenue"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Net Revenue": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.purchasing_customers": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Purchasing Customers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Purchasing Customers": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.repeat_customer_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Repeat Customer Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Repeat Customer Share": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.return_to_gross": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Return to Gross"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Return to Gross": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.return_value": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Return Value"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Return Value": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.rfm_customers": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "RFM Customers"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RFM Customers": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.rfm_top_decile_spend_share": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "RFM Top Decile Spend Share"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RFM Top Decile Spend Share": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.sales_orders": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "Sales Orders"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "Sales Orders": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Version": "2.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "expressions": [
+      {
+        "name": "DataRoot",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"C:/Data/customer-intelligence-revenue-analytics/data/\" meta [IsParameterQuery=true,Type=\"Text\",IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "c2eb2a93-8716-42f3-8ab7-b6c73ba1a80c"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "73c02272-b42f-4a90-a203-402276799f87",
+        "fromColumn": "ProductKey",
+        "fromTable": "Transactions",
+        "toColumn": "ProductKey",
+        "toTable": "Products"
+      },
+      {
+        "name": "84a32acc-9440-4003-91a8-022cd4cf1283",
+        "fromColumn": "CustomerID",
+        "fromTable": "Transactions",
+        "toColumn": "CustomerID",
+        "toTable": "Customers"
+      },
+      {
+        "name": "3810ea88-fe2e-496f-8df3-e8260b141e75",
+        "fromColumn": "DateKey",
+        "fromTable": "Transactions",
+        "toColumn": "DateKey",
+        "toTable": "Dates"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Products",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "StockCode",
+            "dataType": "string",
+            "lineageTag": "03c43ecf-c859-40a2-8d5d-74b3cb46c062",
+            "sourceColumn": "StockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Description",
+            "dataType": "string",
+            "lineageTag": "fbab23c9-2420-40b0-9083-4c6c33cccaae",
+            "sourceColumn": "Description",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductKey",
+            "dataType": "int64",
+            "lineageTag": "4cad1711-da4c-437e-8a61-85631a07f575",
+            "sourceColumn": "ProductKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ProductLabel",
+            "dataType": "string",
+            "lineageTag": "95b9717b-5a3e-4214-a901-28afc11e2586",
+            "sourceColumn": "ProductLabel"
+          }
+        ],
+        "lineageTag": "afcce329-30ea-47e5-8942-366863dbd2c0",
+        "partitions": [
+          {
+            "name": "Products",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(DataRoot & \"processed/products.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed = Table.TransformColumnTypes(Headers,{{\"StockCode\", type text}, {\"Description\", type text}},\"en-US\"),",
+                " Indexed = Table.AddIndexColumn(Typed,\"ProductKey\",1,1,Int64.Type),",
+                " Final = Table.AddColumn(Indexed,\"ProductLabel\",each [StockCode] & \" [\" & Text.From([ProductKey]) & \"]\",type text)",
+                "in Final"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Customers",
+        "columns": [
+          {
+            "name": "CustomerID",
+            "dataType": "string",
+            "lineageTag": "b6299695-afca-4f68-9b22-c6b4be4e36e9",
+            "sourceColumn": "CustomerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Segment",
+            "dataType": "string",
+            "lineageTag": "514f119f-d2e9-4649-be7f-27412e4813b0",
+            "sourceColumn": "Segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Recency",
+            "dataType": "int64",
+            "lineageTag": "d455dad6-7674-4e7e-b81c-719a69c64445",
+            "sourceColumn": "Recency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Frequency",
+            "dataType": "int64",
+            "lineageTag": "b766fafe-50f2-4473-a1bc-287b9d536d40",
+            "sourceColumn": "Frequency",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Monetary",
+            "dataType": "double",
+            "lineageTag": "77aa9680-1abe-4772-837b-cbae1aa75265",
+            "sourceColumn": "Monetary",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "RScore",
+            "dataType": "int64",
+            "lineageTag": "90483b0d-9a98-4d55-bb39-e6d229f1fc9f",
+            "sourceColumn": "RScore",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "FScore",
+            "dataType": "int64",
+            "lineageTag": "0461a316-be0d-42d6-97e3-1837a5440d79",
+            "sourceColumn": "FScore",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "MScore",
+            "dataType": "int64",
+            "lineageTag": "ec54e9ce-b3bd-4b6d-b683-5792ced1e3a8",
+            "sourceColumn": "MScore",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SnapshotDate",
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "38a7d83f-a04f-408d-a06f-b469af153a67",
+            "sourceColumn": "SnapshotDate",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "12d0ca53-1ded-439f-89dc-e545d6fc108b",
+        "partitions": [
+          {
+            "name": "Customers",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(DataRoot & \"processed/customers.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed = Table.TransformColumnTypes(Headers,{{\"CustomerID\", type text}, {\"Segment\", type text}, {\"Recency\", Int64.Type}, {\"Frequency\", Int64.Type}, {\"Monetary\", type number}, {\"RScore\", Int64.Type}, {\"FScore\", Int64.Type}, {\"MScore\", Int64.Type}, {\"SnapshotDate\", type datetime}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Dates",
+        "columns": [
+          {
+            "name": "DateKey",
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "5d4c2e10-c9ba-45b5-be7d-9eb6f2b2f8ac",
+            "sourceColumn": "DateKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year",
+            "dataType": "int64",
+            "lineageTag": "bce8f33f-9d27-46d9-9456-b30f446ab0cf",
+            "sourceColumn": "Year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Month",
+            "dataType": "string",
+            "lineageTag": "faff1af6-084e-48ee-940c-c5270897bff8",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthNumber",
+            "dataType": "int64",
+            "lineageTag": "59338982-d582-4c83-811f-df760b14cd7b",
+            "sourceColumn": "MonthNumber",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "e7d412e0-84fc-40fa-838a-cc00d869f12d",
+        "partitions": [
+          {
+            "name": "Dates",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(DataRoot & \"processed/dates.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed = Table.TransformColumnTypes(Headers,{{\"DateKey\", type datetime}, {\"Year\", Int64.Type}, {\"Month\", type text}, {\"MonthNumber\", Int64.Type}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Transactions",
+        "columns": [
+          {
+            "name": "LineID",
+            "dataType": "int64",
+            "lineageTag": "5941bd40-17c4-4023-bf61-af7a1fb7eea7",
+            "sourceColumn": "LineID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InvoiceNo",
+            "dataType": "string",
+            "lineageTag": "e8efbaa8-3a0f-4cea-829e-fffd77c2cdcd",
+            "sourceColumn": "InvoiceNo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StockCode",
+            "dataType": "string",
+            "lineageTag": "29f4c136-25dd-4129-bdef-fb571afeefd2",
+            "sourceColumn": "StockCode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "CustomerID",
+            "dataType": "string",
+            "lineageTag": "a4902a1e-c735-4fe5-901b-e271942fbdad",
+            "sourceColumn": "CustomerID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DateKey",
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "e4056f1d-f073-47e9-9b1a-ab84bd1427cc",
+            "sourceColumn": "DateKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "InvoiceDate",
+            "dataType": "dateTime",
+            "formatString": "yyyy-MM-dd",
+            "lineageTag": "4e1156dc-5548-459d-ab70-e965c85d575e",
+            "sourceColumn": "InvoiceDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country",
+            "dataType": "string",
+            "lineageTag": "09d9f6b3-7244-4854-b8cc-104d17dcbb68",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Quantity",
+            "dataType": "int64",
+            "lineageTag": "86bb1b5f-d1c9-47af-b61a-f14f32c0b980",
+            "sourceColumn": "Quantity",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "UnitPrice",
+            "dataType": "double",
+            "lineageTag": "fa488c51-2028-4e3c-a1a8-bb9bf70b442b",
+            "sourceColumn": "UnitPrice",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "LineType",
+            "dataType": "string",
+            "lineageTag": "623f1206-fa17-4dfa-bca3-79a110fba79a",
+            "sourceColumn": "LineType",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "LineRevenue",
+            "dataType": "double",
+            "lineageTag": "da6c14cf-bd21-48a3-a97e-cbba4ece8eff",
+            "sourceColumn": "LineRevenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "SalesRevenue",
+            "dataType": "double",
+            "lineageTag": "3b911723-9506-4fe8-a436-1d6056f9949f",
+            "sourceColumn": "SalesRevenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ReturnValue",
+            "dataType": "double",
+            "lineageTag": "902ec8d6-5d13-4a30-b281-789b8d32f3ba",
+            "sourceColumn": "ReturnValue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ProductKey",
+            "dataType": "int64",
+            "isHidden": true,
+            "lineageTag": "0ea8f7aa-8919-4368-ad79-19aa644cf7d8",
+            "sourceColumn": "ProductKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "9f53d22e-f120-4e2d-809b-b1050c8a31cd",
+        "measures": [
+          {
+            "name": "Net Revenue",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "SUM(Transactions[LineRevenue])",
+            "formatString": "\u00a3#,0;\u2212\u00a3#,0",
+            "lineageTag": "4b03f14f-23ff-4b51-a636-171620a21b67"
+          },
+          {
+            "name": "Gross Revenue",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "SUM(Transactions[SalesRevenue])",
+            "formatString": "\u00a3#,0",
+            "lineageTag": "17183e20-a4ae-434b-8a48-7784d68f901c"
+          },
+          {
+            "name": "Return Value",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "SUM(Transactions[ReturnValue])",
+            "formatString": "\u00a3#,0",
+            "lineageTag": "f1c5584d-2403-4157-addb-5056ee8bfc66"
+          },
+          {
+            "name": "Sales Orders",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "CALCULATE(DISTINCTCOUNT(Transactions[InvoiceNo]),Transactions[LineType]=\"Sale\")",
+            "formatString": "#,0",
+            "lineageTag": "eb71cc82-b5dd-4420-9312-0f59fed54916"
+          },
+          {
+            "name": "Average Order Value",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE([Gross Revenue],[Sales Orders])",
+            "formatString": "\u00a3#,0.00",
+            "lineageTag": "5b33ad9c-30c3-4287-88a2-d8e46fca014b"
+          },
+          {
+            "name": "Return to Gross",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE([Return Value],[Gross Revenue])",
+            "formatString": "0.0%",
+            "lineageTag": "9c0a3494-8b02-438c-bab8-75f541e83619"
+          },
+          {
+            "name": "Accepted Lines",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "COUNTROWS(Transactions)",
+            "formatString": "#,0",
+            "lineageTag": "d35fa032-dbb8-47e3-821e-29bf7c84cc7f"
+          },
+          {
+            "name": "Units Sold",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "CALCULATE(SUM(Transactions[Quantity]),Transactions[LineType]=\"Sale\")",
+            "formatString": "#,0",
+            "lineageTag": "939cb2d1-58b6-46a5-ae98-2764d9ee9c6b"
+          },
+          {
+            "name": "Purchasing Customers",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "CALCULATE(DISTINCTCOUNT(Transactions[CustomerID]),Transactions[LineType]=\"Sale\",Transactions[CustomerID]<>\"UNKNOWN\")",
+            "formatString": "#,0",
+            "lineageTag": "0c0e7bee-ef4b-413e-a788-114b4315cfc9"
+          },
+          {
+            "name": "Repeat Customers",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "COUNTROWS(FILTER(VALUES(Transactions[CustomerID]),Transactions[CustomerID]<>\"UNKNOWN\" && CALCULATE([Sales Orders])>=2))",
+            "formatString": "#,0",
+            "lineageTag": "a4664efe-281d-4d6d-810f-b206eef984e3"
+          },
+          {
+            "name": "Repeat Customer Share",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE([Repeat Customers],[Purchasing Customers])",
+            "formatString": "0.0%",
+            "lineageTag": "ab49e7ec-4441-44a1-9320-012f0816e12d"
+          },
+          {
+            "name": "Anonymous Revenue Share",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE(CALCULATE([Gross Revenue],Transactions[CustomerID]=\"UNKNOWN\"),[Gross Revenue])",
+            "formatString": "0.0%",
+            "lineageTag": "543fab48-25f2-499a-bcfa-9ca1205ce210"
+          },
+          {
+            "name": "Active Products",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DISTINCTCOUNT(Transactions[ProductKey])",
+            "formatString": "#,0",
+            "lineageTag": "49dc5a90-32e2-49ee-8d36-b026346c7800"
+          },
+          {
+            "name": "Markets",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DISTINCTCOUNT(Transactions[Country])",
+            "formatString": "#,0",
+            "lineageTag": "70b52434-591d-4754-a713-25052a3c44e1"
+          },
+          {
+            "name": "Net Revenue Previous Month",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "CALCULATE([Net Revenue],DATEADD(Dates[DateKey],-1,MONTH))",
+            "formatString": "\u00a3#,0",
+            "lineageTag": "4132e59d-0ae4-4803-be8f-000ea373575d"
+          },
+          {
+            "name": "Net Revenue MoM",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE([Net Revenue]-[Net Revenue Previous Month],[Net Revenue Previous Month])",
+            "formatString": "0.0%",
+            "lineageTag": "cef2287c-6771-48a2-ba9c-3bd8133bcf9b"
+          },
+          {
+            "name": "Net Revenue YTD",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "TOTALYTD([Net Revenue],Dates[DateKey])",
+            "formatString": "\u00a3#,0",
+            "lineageTag": "bce62120-1975-4ce2-833e-06ff881a92f1"
+          },
+          {
+            "name": "Customer Revenue Share",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE([Gross Revenue],CALCULATE([Gross Revenue],REMOVEFILTERS(Customers)))",
+            "formatString": "0.0%",
+            "lineageTag": "44620016-8ac2-4a17-95aa-3e413f1d7985"
+          },
+          {
+            "name": "RFM Customers",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "COUNTROWS(FILTER(Customers,NOT ISBLANK(Customers[Frequency])))",
+            "formatString": "#,0",
+            "lineageTag": "d14658b8-b249-479b-8372-6a9f9190ab5e"
+          },
+          {
+            "name": "RFM Gross Spend",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "SUM(Customers[Monetary])",
+            "formatString": "\u00a3#,0",
+            "lineageTag": "760aa9c6-49d7-4f09-a861-cbfe6dc96d13"
+          },
+          {
+            "name": "RFM Mean Recency",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "AVERAGE(Customers[Recency])",
+            "formatString": "0.0",
+            "lineageTag": "054275f0-92d8-4e92-abba-7a293f923fa5"
+          },
+          {
+            "name": "RFM Top Decile Spend Share",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "VAR C=FILTER(ALL(Customers),NOT ISBLANK(Customers[Monetary])) VAR N=ROUNDUP(COUNTROWS(C)*0.1,0) RETURN DIVIDE(SUMX(TOPN(N,C,Customers[Monetary],DESC,Customers[CustomerID],ASC),Customers[Monetary]),SUMX(C,Customers[Monetary]))",
+            "formatString": "0.0%",
+            "lineageTag": "3e36ef22-d86b-4049-ae95-2f782077b8ea"
+          },
+          {
+            "name": "Cohort Retention",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "DIVIDE(SUM(Cohorts[ActiveCustomers]),SUM(Cohorts[CohortSize]))",
+            "formatString": "0.0%",
+            "lineageTag": "7c277d79-af50-4a47-8157-d5c554a9b52e"
+          },
+          {
+            "name": "Cohort Active Customers",
+            "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
+            "displayFolder": "Portfolio Measures",
+            "expression": "SUM(Cohorts[ActiveCustomers])",
+            "formatString": "#,0",
+            "lineageTag": "504ccd46-2e05-4c6c-99ff-2e8b5120f16a"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Transactions",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(DataRoot & \"processed/transactions.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed = Table.TransformColumnTypes(Headers,{{\"LineID\", Int64.Type}, {\"InvoiceNo\", type text}, {\"StockCode\", type text}, {\"CustomerID\", type text}, {\"DateKey\", type datetime}, {\"InvoiceDate\", type datetime}, {\"Country\", type text}, {\"Quantity\", Int64.Type}, {\"UnitPrice\", type number}, {\"LineType\", type text}, {\"LineRevenue\", type number}, {\"SalesRevenue\", type number}, {\"ReturnValue\", type number}},\"en-US\"),",
+                " Joined = Table.NestedJoin(Typed,{\"StockCode\"},Products,{\"StockCode\"},\"Product\",JoinKind.LeftOuter),",
+                " Final = Table.ExpandTableColumn(Joined,\"Product\",{\"ProductKey\"},{\"ProductKey\"})",
+                "in Final"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Cohorts",
+        "columns": [
+          {
+            "name": "CohortMonth",
+            "dataType": "string",
+            "lineageTag": "fbb6d451-00d4-4773-9bac-7c8e56cd604c",
+            "sourceColumn": "CohortMonth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthIndex",
+            "dataType": "int64",
+            "lineageTag": "292d7798-3afe-4577-b090-460d709a1471",
+            "sourceColumn": "MonthIndex",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "CohortSize",
+            "dataType": "int64",
+            "lineageTag": "1d0a1083-e9b6-4c42-96fd-ca64f7c9c935",
+            "sourceColumn": "CohortSize",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ActiveCustomers",
+            "dataType": "int64",
+            "lineageTag": "2903beb4-0fae-4c58-b90f-b6f6dbdd912e",
+            "sourceColumn": "ActiveCustomers",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Retention",
+            "dataType": "double",
+            "lineageTag": "80a0797c-00b0-4c40-b86a-c2ea41b59b24",
+            "sourceColumn": "Retention",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "ActivityMonth",
+            "dataType": "string",
+            "lineageTag": "0ab51869-00d2-4ef5-92a6-e9ce3ee04929",
+            "sourceColumn": "ActivityMonth",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "PartialActivityMonth",
+            "dataType": "string",
+            "lineageTag": "73dfcc2a-bbfa-46f3-809a-bf9beadfc89a",
+            "sourceColumn": "PartialActivityMonth",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "146b6e29-2474-4a67-b441-7ee0a8490537",
+        "partitions": [
+          {
+            "name": "Cohorts",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                " Source = Csv.Document(File.Contents(DataRoot & \"exports/cohort_retention.csv\"),[Delimiter=\",\",Encoding=65001,QuoteStyle=QuoteStyle.Csv]),",
+                " Headers = Table.PromoteHeaders(Source,[PromoteAllScalars=true]),",
+                " Typed = Table.TransformColumnTypes(Headers,{{\"CohortMonth\", type text}, {\"MonthIndex\", Int64.Type}, {\"CohortSize\", Int64.Type}, {\"ActiveCustomers\", Int64.Type}, {\"Retention\", type number}, {\"ActivityMonth\", type text}, {\"PartialActivityMonth\", type text}},\"en-US\")",
+                "in Typed"
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
