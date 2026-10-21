@@ -3,8 +3,8 @@
   "name": "p3",
   "displayName": "Products & Markets",
   "displayOption": "FitToPage",
-  "height": 900,
   "width": 1440,
+  "height": 900,
   "objects": {
     "background": [
       {
@@ -13,15 +13,95 @@
             "solid": {
               "color": {
                 "expr": {
-                  "Literal": {
-                    "Value": "'#F3F6FA'"
+                  "ThemeDataColor": {
+                    "ColorId": 6,
+                    "Percent": 0
                   }
                 }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
               }
             }
           }
         }
       }
     ]
-  }
+  },
+  "visualInteractions": [
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "7f075eb17f7a4f78b039",
+      "type": "DataFilter"
+    },
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "872b13b397594e049693",
+      "type": "DataFilter"
+    },
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "8cfff1b0d4c64ba98358",
+      "type": "DataFilter"
+    },
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "a03b368830fe43e0adcc",
+      "type": "DataFilter"
+    },
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "a629ac277aac4e52acb5",
+      "type": "DataFilter"
+    },
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "c5d2588f3b604d459114",
+      "type": "DataFilter"
+    },
+    {
+      "source": "821bfa980ba047b3a13a",
+      "target": "6ab72266492955c591bb",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "7f075eb17f7a4f78b039",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "821bfa980ba047b3a13a",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "872b13b397594e049693",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "8cfff1b0d4c64ba98358",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "a03b368830fe43e0adcc",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "c5d2588f3b604d459114",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a629ac277aac4e52acb5",
+      "target": "6ab72266492955c591bb",
+      "type": "DataFilter"
+    }
+  ]
 }

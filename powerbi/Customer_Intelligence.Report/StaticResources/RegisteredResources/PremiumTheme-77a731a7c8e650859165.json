@@ -1,0 +1,33 @@
+{
+  "name": "PremiumTheme-77a731a7c8e650859165.json",
+  "dataColors": [
+    "#7C3AED",
+    "#EC4899",
+    "#3B82F6",
+    "#14B8A6",
+    "#F4F6FC",
+    "#64748B",
+    "#FFFFFF",
+    "#13223A"
+  ],
+  "background": "#F4F6FC",
+  "foreground": "#13223A",
+  "tableAccent": "#7C3AED",
+  "good": "#22C55E",
+  "neutral": "#3B82F6",
+  "bad": "#EF4444",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#13223A"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#64748B"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#7C3AED"
+    }
+  }
+}

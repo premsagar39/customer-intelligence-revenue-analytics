@@ -3,8 +3,8 @@
   "name": "comparison",
   "displayName": "Customer Segments",
   "displayOption": "FitToPage",
-  "height": 900,
   "width": 1440,
+  "height": 900,
   "objects": {
     "background": [
       {
@@ -13,15 +13,45 @@
             "solid": {
               "color": {
                 "expr": {
-                  "Literal": {
-                    "Value": "'#F3F6FA'"
+                  "ThemeDataColor": {
+                    "ColorId": 6,
+                    "Percent": 0
                   }
                 }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
               }
             }
           }
         }
       }
     ]
-  }
+  },
+  "visualInteractions": [
+    {
+      "source": "af633f527ddc5b2ab8eb",
+      "target": "a53dd78623d5511cb692",
+      "type": "DataFilter"
+    },
+    {
+      "source": "af633f527ddc5b2ab8eb",
+      "target": "c2ed5a60424a529cb9af",
+      "type": "DataFilter"
+    },
+    {
+      "source": "c2ed5a60424a529cb9af",
+      "target": "a53dd78623d5511cb692",
+      "type": "DataFilter"
+    },
+    {
+      "source": "c2ed5a60424a529cb9af",
+      "target": "af633f527ddc5b2ab8eb",
+      "type": "DataFilter"
+    }
+  ]
 }

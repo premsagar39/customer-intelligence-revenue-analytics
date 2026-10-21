@@ -3,8 +3,8 @@
   "name": "p1",
   "displayName": "Customer Analytics",
   "displayOption": "FitToPage",
-  "height": 900,
   "width": 1440,
+  "height": 900,
   "objects": {
     "background": [
       {
@@ -13,15 +13,160 @@
             "solid": {
               "color": {
                 "expr": {
-                  "Literal": {
-                    "Value": "'#F3F6FA'"
+                  "ThemeDataColor": {
+                    "ColorId": 6,
+                    "Percent": 0
                   }
                 }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
               }
             }
           }
         }
       }
     ]
-  }
+  },
+  "visualInteractions": [
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "206f63a0d3c1478c9977",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "23f86ddcb472453c80b2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "326b70bc93c94078a9fa",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "6de1ae9afab94b69a780",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "75367301c2a14425bb91",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "a9411f7b082544648fe7",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "efb4dae59e68460ba984",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "f73b2e133fd040e59fc8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "301ccb2c12084738b609",
+      "target": "381164c268cf50ad9bd8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "206f63a0d3c1478c9977",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "23f86ddcb472453c80b2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "301ccb2c12084738b609",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "6de1ae9afab94b69a780",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "75367301c2a14425bb91",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "a9411f7b082544648fe7",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "efb4dae59e68460ba984",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "f73b2e133fd040e59fc8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "326b70bc93c94078a9fa",
+      "target": "381164c268cf50ad9bd8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "206f63a0d3c1478c9977",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "23f86ddcb472453c80b2",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "301ccb2c12084738b609",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "326b70bc93c94078a9fa",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "6de1ae9afab94b69a780",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "75367301c2a14425bb91",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "efb4dae59e68460ba984",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "f73b2e133fd040e59fc8",
+      "type": "DataFilter"
+    },
+    {
+      "source": "a9411f7b082544648fe7",
+      "target": "381164c268cf50ad9bd8",
+      "type": "DataFilter"
+    }
+  ]
 }

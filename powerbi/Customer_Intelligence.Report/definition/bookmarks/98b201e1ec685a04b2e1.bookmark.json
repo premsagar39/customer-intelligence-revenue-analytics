@@ -1,0 +1,63 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "name": "98b201e1ec685a04b2e1",
+  "displayName": "Hide filters",
+  "options": {
+    "targetVisualNames": [
+      "60e877ed09ae54a79406",
+      "d2e65ad45f1c52e9ad5e",
+      "63323deded8f4ab3ab41",
+      "932aa53677bc4a5a9d63",
+      "d3e569cf47b3527980f9"
+    ],
+    "suppressData": true,
+    "suppressDisplay": false,
+    "suppressActiveSection": true,
+    "applyOnlyToTargetVisuals": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "p1",
+    "sections": {
+      "p1": {
+        "visualContainers": {
+          "60e877ed09ae54a79406": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "d2e65ad45f1c52e9ad5e": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "63323deded8f4ab3ab41": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "932aa53677bc4a5a9d63": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "d3e569cf47b3527980f9": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

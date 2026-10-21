@@ -3,8 +3,8 @@
   "name": "p2",
   "displayName": "Customer Retention",
   "displayOption": "FitToPage",
-  "height": 900,
   "width": 1440,
+  "height": 900,
   "objects": {
     "background": [
       {
@@ -13,15 +13,60 @@
             "solid": {
               "color": {
                 "expr": {
-                  "Literal": {
-                    "Value": "'#F3F6FA'"
+                  "ThemeDataColor": {
+                    "ColorId": 6,
+                    "Percent": 0
                   }
                 }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
               }
             }
           }
         }
       }
     ]
-  }
+  },
+  "visualInteractions": [
+    {
+      "source": "413e116828a441538e28",
+      "target": "186fa96f926e4e359139",
+      "type": "DataFilter"
+    },
+    {
+      "source": "413e116828a441538e28",
+      "target": "570e158a09424a62b2e6",
+      "type": "DataFilter"
+    },
+    {
+      "source": "413e116828a441538e28",
+      "target": "6ee6ada7051246cbb8aa",
+      "type": "DataFilter"
+    },
+    {
+      "source": "413e116828a441538e28",
+      "target": "9879b1eeab8a4e70b3d4",
+      "type": "DataFilter"
+    },
+    {
+      "source": "413e116828a441538e28",
+      "target": "ad8c02359d364ab4a535",
+      "type": "DataFilter"
+    },
+    {
+      "source": "413e116828a441538e28",
+      "target": "b883a7b11d8f4e838f32",
+      "type": "DataFilter"
+    },
+    {
+      "source": "413e116828a441538e28",
+      "target": "e3c023f2ac13580e8e0e",
+      "type": "DataFilter"
+    }
+  ]
 }

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/bookmark/2.1.0/schema.json",
+  "name": "4d1a2ddcac9759b4a930",
+  "displayName": "Net Revenue",
+  "options": {
+    "targetVisualNames": [
+      "326b70bc93c94078a9fa",
+      "59c312a6563654c2a887"
+    ],
+    "suppressData": true,
+    "suppressDisplay": false,
+    "suppressActiveSection": true,
+    "applyOnlyToTargetVisuals": true
+  },
+  "explorationState": {
+    "version": "1.3",
+    "activeSection": "p1",
+    "sections": {
+      "p1": {
+        "visualContainers": {
+          "326b70bc93c94078a9fa": {
+            "singleVisual": {}
+          },
+          "59c312a6563654c2a887": {
+            "singleVisual": {
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

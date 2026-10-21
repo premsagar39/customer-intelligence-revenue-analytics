@@ -1,0 +1,33 @@
+{
+  "name": "Customer Analytics Dark",
+  "dataColors": [
+    "#7C3AED",
+    "#EC4899",
+    "#3B82F6",
+    "#14B8A6",
+    "#0B1120",
+    "#9AAEC7",
+    "#172036",
+    "#E5EDF7"
+  ],
+  "background": "#0B1120",
+  "foreground": "#E5EDF7",
+  "tableAccent": "#7C3AED",
+  "good": "#22C55E",
+  "neutral": "#3B82F6",
+  "bad": "#EF4444",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#E5EDF7"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#9AAEC7"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#7C3AED"
+    }
+  }
+}
