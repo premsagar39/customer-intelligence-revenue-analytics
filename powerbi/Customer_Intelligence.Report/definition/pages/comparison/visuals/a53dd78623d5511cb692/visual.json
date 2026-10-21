@@ -108,7 +108,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Segment benchmark - full-period snapshot'"
+                  "Value": "'RFM Segment Benchmarks'"
                 }
               }
             },

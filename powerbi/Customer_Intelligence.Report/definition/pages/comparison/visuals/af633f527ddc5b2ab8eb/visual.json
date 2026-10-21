@@ -106,7 +106,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Purchasing customers by segment'"
+                  "Value": "'Customers by Segment'"
                 }
               }
             },

@@ -16,8 +16,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 4797,
-    "sha256": "5ccdf2d9504ff47a0c42dc58e4474c4e2535d7fa8f8f89db93a522f3dab443e3"
+    "bytes": 4886,
+    "sha256": "a0ff64cb3f36861e3cad4ac90a3c403f70e2ba3947b5435e04f81b6e9a4e8d8a"
   },
   {
     "path": "data/exports/cohort_retention.csv",
@@ -71,223 +71,203 @@
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/comparison/page.json",
-    "bytes": 623,
-    "sha256": "39a7a004eba58a7a162227e6eea924d284c4a6b49715847220da086a65c0ffec"
-  },
-  {
-    "path": "powerbi/Customer_Intelligence.Report/definition/pages/comparison/visuals/126ea32f1fff5cc99831/visual.json",
-    "bytes": 1570,
-    "sha256": "a332d51f03c13a92a6601de7b2f1317a004c115cfb86374b9dfd898cdf5c8f36"
+    "bytes": 615,
+    "sha256": "c04d4f221530fe54530643f61b6c0f22cda1a76aac283f7f42050c085c13db6b"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/comparison/visuals/1880dba64db55254b218/visual.json",
-    "bytes": 1471,
-    "sha256": "119d402ea1ab3080e6a1b9db02f38cd9d37c41663c1c0a06940626ac3145cfd7"
+    "bytes": 1463,
+    "sha256": "8d7d2f99e5fedb6fd6b021f16b2371f14b45fcb1382d2d43d6237d0bf8e08796"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/comparison/visuals/a53dd78623d5511cb692/visual.json",
-    "bytes": 4989,
-    "sha256": "cbb5359d7e896839865fed1c6a76d7b1c1ad153e885bb021bf71f4c1ba105794"
+    "bytes": 4973,
+    "sha256": "f813ec45f6af7bc72e4cd1a6e99c976a5b465d1e554fe8939c99552bb655f791"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/comparison/visuals/af633f527ddc5b2ab8eb/visual.json",
-    "bytes": 4543,
-    "sha256": "9dcfd64963706b1d39af7b00e5680f5369e801cbf79a24fbb2cf2e1f05346a3a"
+    "bytes": 4534,
+    "sha256": "f1081b5a618cfdf9d0fd350922afe9bf21ce98718f1ac277d52b90f59ebe5699"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/comparison/visuals/c2ed5a60424a529cb9af/visual.json",
-    "bytes": 5064,
-    "sha256": "ab3861aed3eb25e3286a74975524159c8373b5a30d2bad5ba56e63a167575fc7"
+    "bytes": 5055,
+    "sha256": "539ddf69e5e134775bf663c4305001944551107f9f3dba93041e8f7f524ecac7"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/page.json",
-    "bytes": 604,
-    "sha256": "9dcf056f0dbc9263f6fa881175b7985b1d71e6deb13d6f4b331dc0a23258365b"
+    "bytes": 608,
+    "sha256": "8638446e45ed5f8a3f603c70effc0b7a357257c74b86bde0c4d6ff624dd5a75b"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/0b538dcffd2045188502/visual.json",
-    "bytes": 1460,
-    "sha256": "dce91f7fd6254449d0c2a3ee40d21c618d0014c4e8b23b7ccc5418ddac2e1bea"
+    "bytes": 1464,
+    "sha256": "35763f511ad94ef027aba19da54ec1032fbfc9c0adc6e2bfce06470340fb6d59"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/206f63a0d3c1478c9977/visual.json",
-    "bytes": 3702,
-    "sha256": "e3c54ea21967e0db23a2034142b90950db0fd4b764239d68f9bb63b2bddc2593"
+    "bytes": 3704,
+    "sha256": "e71532b114764a84f506e691bb79590249f33c87dc6184076fa50c462f54a5e1"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/23f86ddcb472453c80b2/visual.json",
-    "bytes": 3641,
-    "sha256": "0ddc46a60fdb5033a3b6c6b14b583cdb7b7a1d5ec9997e3c059e0025055f92ed"
+    "bytes": 3643,
+    "sha256": "804e09ff05db96b60aecd303d7aa6097adb211ab458c69c21d5e4d96b2ff77d6"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/301ccb2c12084738b609/visual.json",
-    "bytes": 3968,
-    "sha256": "6f02ed7b9b0832d0f3d1f447ff85ad9c78c869842433dd469c8fb13cced6867e"
+    "bytes": 3970,
+    "sha256": "63e358ec1bf8e67daf385d24be07fb972a9e5cbafefae2e4680244a5ea424f02"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/326b70bc93c94078a9fa/visual.json",
-    "bytes": 3929,
-    "sha256": "4414c606bdce477de9bf6a4cbcb2fea167a5cea4d47bb417759d802b1737ed0d"
+    "bytes": 3931,
+    "sha256": "5fee9a43648fd963273c2dbb0c05a01f710ce7ca2e122530fa6c4cc59f4c2f18"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/63323deded8f4ab3ab41/visual.json",
-    "bytes": 3248,
-    "sha256": "edc6c67916a9d0e8ec260c4eb71adbd1593c921e2fca5456f44b1aba0ff03bc4"
+    "bytes": 3250,
+    "sha256": "75b1d11fd9c9bf8505a99c9707b094053a787226a8184da3927627654ac2d331"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/6de1ae9afab94b69a780/visual.json",
-    "bytes": 3646,
-    "sha256": "c0224aa672251cc62eb369a12413de67b540972aebe583f5b679c124930d787e"
+    "bytes": 3648,
+    "sha256": "e81c6ed00bc122ce68b8bc14fa53fb61c2f575df76774cb161df27ce1186f735"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/75367301c2a14425bb91/visual.json",
-    "bytes": 3676,
-    "sha256": "e046edc816f01f01426edbe47a246e542d2fcef13d4c256412ff716f2b9cc230"
+    "bytes": 3678,
+    "sha256": "bfd4a6070a55c5eaade26452d8a4dd397e2a2db99f1302244f58d3b225e82c18"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/932aa53677bc4a5a9d63/visual.json",
-    "bytes": 3272,
-    "sha256": "f8c936debcd03adb30de7d49d506782669ff2001456811fd1162602a3411c881"
+    "bytes": 3274,
+    "sha256": "4689274a173d4dc4b7a4091c6343c04200df46c964a8643ca6010c5958b3b4ef"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/a9411f7b082544648fe7/visual.json",
-    "bytes": 4429,
-    "sha256": "33848a41b4c83f68fc6be9df1522aed8fac180813d73c0ae0ecfa8edc0f9c87b"
-  },
-  {
-    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/c88093196c064a4aa438/visual.json",
-    "bytes": 1553,
-    "sha256": "9b0f015e37bbcea0d7d53468ea8670e9fec680bd320832acfd01d480f16b62dc"
+    "bytes": 4431,
+    "sha256": "840e18e0f36176b5ffa8eb6d3fbf8b07e6a166b7f81ecd77966446c21882a718"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/efb4dae59e68460ba984/visual.json",
-    "bytes": 3667,
-    "sha256": "eda3e2408de8dc1cf5f35324032c2c6a4ec66772e4b2d5630baf1e2f6e569ff7"
+    "bytes": 3669,
+    "sha256": "1e84564635d9760add960dfb6c3d485f752f7871a4fd51e2fb823de57605c092"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p1/visuals/f73b2e133fd040e59fc8/visual.json",
-    "bytes": 3635,
-    "sha256": "edd662c2a481be547c4618ddf934ce96424436ab925a2b0ff843736719e15534"
+    "bytes": 3637,
+    "sha256": "05811b8072bf6f1341628fe7cb6ec113d2670addb9910b0e9c567489ca9f3744"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/page.json",
-    "bytes": 611,
-    "sha256": "c97b3dff04e1a09d3e6d9f6d5e2e1f39a87ad4c68bb4beec4e0a9f459065d9f3"
+    "bytes": 608,
+    "sha256": "7c619a11a28cb76dc6e0e0db2cea9ff1284561322653338b3fb81a8a12906a93"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/186fa96f926e4e359139/visual.json",
-    "bytes": 3696,
-    "sha256": "068f35e8093e4688d634aaeabd02e4860bda635156008884808b66fa4215daab"
+    "bytes": 3698,
+    "sha256": "41f3d15cd1215122f738dfc9ea82474d20268885080a534e453715e7cb282174"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/413e116828a441538e28/visual.json",
-    "bytes": 3994,
-    "sha256": "ec178af5df5d9a4119e49e4a961c9adb6413e1b4a43974b3afc98ed5b62e427b"
+    "bytes": 3973,
+    "sha256": "7c61e24977ab50341ef88b7e57b9d2caa4dc056dbbbbd32ec621679ef763d979"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/570e158a09424a62b2e6/visual.json",
-    "bytes": 3686,
-    "sha256": "7b9d803bb4d34ac4a81ea0b0591e0329f38298c1cfb342af4efba70f1eebb4c8"
+    "bytes": 3688,
+    "sha256": "552a44b30e6887390d2bec0ffb5526588f622f723b6ebf9a7d5146c42755be38"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/6ee6ada7051246cbb8aa/visual.json",
-    "bytes": 3680,
-    "sha256": "8f83ee154f0a235f381544da0807a3fac853f3b5481c8bd9269f972e1c17a4ba"
+    "bytes": 3682,
+    "sha256": "4cbd550ea0645ca727aa0856278cb1c555345ca5a1177441b6ba86a06c0c3292"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/7991436f0a7049079999/visual.json",
-    "bytes": 1467,
-    "sha256": "32bad6b9aa656743be56fb2681dfa62d6ebbd9446b8d291b95e7136d79926347"
+    "bytes": 1464,
+    "sha256": "0c8acc4ec5fcbbf097146df6c497a706b021bb0e946d3ff13969229f66d6aeee"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/9879b1eeab8a4e70b3d4/visual.json",
-    "bytes": 3711,
-    "sha256": "d688ab23b2268538bdb144fb6a5d537a02f33f6ced882aa74c1a0aac7148779b"
-  },
-  {
-    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/a3d5dd9f97e744748853/visual.json",
-    "bytes": 1562,
-    "sha256": "4ad224ce4c86a713dc22d61a69ac5a01031e4dd7e9f8b7f55b425faf245119eb"
+    "bytes": 3713,
+    "sha256": "52b1d8f133a6542f5085626c30e53de2004631666f876b60bcc63e2c43470274"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/ad8c02359d364ab4a535/visual.json",
-    "bytes": 4840,
-    "sha256": "45bc91c9308ea0565395c8b10691559942f68e7a85258480b6efd6b92e9536ea"
+    "bytes": 4813,
+    "sha256": "fed39cd6992b600f4a6464e26ae9d2b622520a82168b81051dc57a926166fb65"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/b883a7b11d8f4e838f32/visual.json",
-    "bytes": 4177,
-    "sha256": "824a311c75931ce35d70494a2541e5276eaf6d92daa4e7b4f2964db9a11a1012"
+    "bytes": 4150,
+    "sha256": "ca145478caa64aabc635b098a15093ea47c53bedffec9d42f7b6fed6898dc0ee"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p2/visuals/f04c4550601c479ca18f/visual.json",
-    "bytes": 3266,
-    "sha256": "04303592456863d3defc7421b5a1addd96fbad35af8fd02bb2327339d7e8f472"
+    "bytes": 3268,
+    "sha256": "4590fd583ed6d3b74a99e7ed7bcc7ca28aced603831b4e8f8f59f2afcbaef1d7"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/page.json",
-    "bytes": 613,
-    "sha256": "e94bee91a95de90955412aa485ab8b1d6e26e9f4dd89a5c9d4ea791dc1a257ab"
+    "bytes": 608,
+    "sha256": "516b9eb80a6cbc1f8cbeb1f33ce68bfca0ab5450fac4adf7ca5fbad0a5dbcbd4"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/3734b28592a04e158e17/visual.json",
-    "bytes": 3272,
-    "sha256": "af043924634043a980744669d3a306e0e68afa69abdf40a8e6f218b949cb1e31"
+    "bytes": 3274,
+    "sha256": "1db2ba400c9d229ed3a16e1834aaadbfef21f4ae2a61b6dbfc24bff3a187049e"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/4c7a4cbd8f18411ea2ca/visual.json",
-    "bytes": 1469,
-    "sha256": "fafbb15e23790ff6c796ec69895c09101d5a60b984b8a1c1829d2a4e6db7e2c5"
+    "bytes": 1464,
+    "sha256": "03c382000b8707d86bcab3ac593a7604a475488611b8722db51c17f5f84cb038"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/6e957dfd23a4495b8fbf/visual.json",
-    "bytes": 3248,
-    "sha256": "04ef2e33b3162b502cf084aeca4d5d2d8f44b8d6fb7dd1c4273781e8ac2d38b9"
+    "bytes": 3250,
+    "sha256": "e231373f368a1280c820ae4d011ca12f32699d7cbdc81bc2729765f9399a9ca1"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/7f075eb17f7a4f78b039/visual.json",
-    "bytes": 3616,
-    "sha256": "53db733b13c49f3e28ab432b29736f76908d4e5f300a8021b23cba81f510508b"
+    "bytes": 3618,
+    "sha256": "596c2027f21edb876027563bbf7fc003ed406ff53e3c98399f72878f12e1656b"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/821bfa980ba047b3a13a/visual.json",
-    "bytes": 4549,
-    "sha256": "c1ea22f7839934c8bbb3b6493a129c217c63b5072e3ca58f95b45b934134f44b"
+    "bytes": 4525,
+    "sha256": "400f06edae199cce97c6284a8a2d877ee1608c13b19d26a482538af3e619922d"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/872b13b397594e049693/visual.json",
-    "bytes": 4920,
-    "sha256": "0d5a5e82f5a494293d5fd4b64526eb82cfd3c72234ef705dccc8f90f8193c900"
+    "bytes": 4922,
+    "sha256": "ecd462cdc0170aa851eac89f1b4768d259fa03318928b6a7e379e7cea339e8a2"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/8cfff1b0d4c64ba98358/visual.json",
-    "bytes": 3656,
-    "sha256": "484a5e898deec136fdf959b62f4f2075eedbb08a914443c7a5a2b5ad96effc62"
+    "bytes": 3658,
+    "sha256": "19699f8137f09fd9c3dc1377a63a7ef1b8b6bca9f05bd7a297532ffebd5b5dfb"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/a03b368830fe43e0adcc/visual.json",
-    "bytes": 3641,
-    "sha256": "34ec4bd1c10906c18dab451256f7985a99f0af60064118d32089d6f17a06b010"
+    "bytes": 3643,
+    "sha256": "aee360f5bc0ef75e41fc8b7b92ceb9a0139f141329020f572e0677b8f5156dae"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/a629ac277aac4e52acb5/visual.json",
-    "bytes": 3995,
-    "sha256": "e954b9257c683570960ce868d3ace4f4089118cc9674a8ed26db98e44dd931cb"
+    "bytes": 3997,
+    "sha256": "a1a30333f94eba855f4963cdbe5b80b616d3fce69ddd1571ca2f744ed4d9befa"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/c5d2588f3b604d459114/visual.json",
-    "bytes": 3655,
-    "sha256": "6e6761501376416822e8d77492154719e78f2be629ef0414c47e090df1542889"
-  },
-  {
-    "path": "powerbi/Customer_Intelligence.Report/definition/pages/p3/visuals/feb0b8b97477413fb8ef/visual.json",
-    "bytes": 1586,
-    "sha256": "25937c75be67ea9da04ccf24b58c049c676d888bd7bbf0489e492d1f39433944"
+    "bytes": 3657,
+    "sha256": "4158d1cb4b36bbe7105cd7393b181a8d9ae75f83eaa4f64f873bfd03cdb604d9"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/pages/pages.json",
-    "bytes": 229,
-    "sha256": "69db06796fa00754fe8e7bd4cf98d057054e18f1471379690a16b44b4b21ff7a"
+    "bytes": 231,
+    "sha256": "eb138ae33b3aede065fc6ed6cd09d6d9418987b4eda80a0c4ca37dd4121c6a5d"
   },
   {
     "path": "powerbi/Customer_Intelligence.Report/definition/report.json",
@@ -333,6 +313,11 @@
     "path": "powerbi/OPEN_REPORT.md",
     "bytes": 598,
     "sha256": "abc63e3166e001cffe492ecd99ef2e76771c908f94afd9c87a18ef6d1b4c38e5"
+  },
+  {
+    "path": "powerbi/REPORT_NOTES.md",
+    "bytes": 628,
+    "sha256": "a8dd892d31daae3df9d3de7e453458d5e04f8d8df964150a4acd46fee7f4f0de"
   },
   {
     "path": "powerbi/measures.dax",

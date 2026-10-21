@@ -1,4 +1,4 @@
-# Customer Intelligence and Revenue Analytics
+# Customer Analytics
 
 A customer and revenue study of UCI Online Retail II, covering December 2009 to December 2011. It follows the transactions from data-quality checks through SQL analysis, customer segmentation and a four-page Power BI report.
 
@@ -64,3 +64,5 @@ Code and original documentation use the MIT license. Source datasets retain thei
 Customer segment comparison adds a focused review page with two contextual measures, a comparison table, chart tooltips and a project-specific theme. Full-period RFM snapshot at 10 Dec 2011. Index 1.00 matches selected segments; anonymous and return-only records are excluded. SQL Q21 provides the related aggregate analysis. See [enhancement checks](reports/COMPARISON_VALIDATION.md).
 
 Current report: **4 pages, 26 DAX measures and 21 SQL analyses**.
+
+[Report notes](powerbi/REPORT_NOTES.md) contain the date, scope and interpretation details behind the visuals.

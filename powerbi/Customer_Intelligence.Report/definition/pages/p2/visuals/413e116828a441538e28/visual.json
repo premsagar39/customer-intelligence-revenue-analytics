@@ -85,7 +85,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'RFM customer segments â€¢ fixed snapshot'"
+                  "Value": "'RFM customer segments'"
                 }
               }
             },

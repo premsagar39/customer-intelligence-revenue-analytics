@@ -121,7 +121,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Historical spend per customer'"
+                  "Value": "'Spend per Customer'"
                 }
               }
             },
