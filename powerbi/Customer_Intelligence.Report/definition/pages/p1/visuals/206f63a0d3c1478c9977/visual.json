@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
   "name": "206f63a0d3c1478c9977",
   "position": {
-    "x": 1020.0,
-    "y": 711.1875,
+    "x": 1210,
+    "y": 762,
     "z": 101,
-    "height": 115.5,
-    "width": 365.625,
+    "height": 108,
+    "width": 206,
     "tabOrder": 101
   },
   "visual": {
@@ -95,7 +95,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Anonymous gross revenue share'"
+                  "Value": "'Anonymous revenue share'"
                 }
               }
             },
@@ -121,7 +121,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "11D"
                 }
               }
             },
@@ -192,7 +192,7 @@
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "14D"
+                  "Value": "8D"
                 }
               }
             }
@@ -223,14 +223,14 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "92D"
+                  "Value": "96D"
                 }
               }
             },
             "shadowBlur": {
               "expr": {
                 "Literal": {
-                  "Value": "7D"
+                  "Value": "4D"
                 }
               }
             },

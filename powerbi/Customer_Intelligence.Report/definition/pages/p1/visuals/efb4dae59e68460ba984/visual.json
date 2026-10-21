@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.11.0/schema.json",
   "name": "efb4dae59e68460ba984",
   "position": {
-    "x": 1020.0,
-    "y": 566.8125,
+    "x": 982,
+    "y": 762,
     "z": 110,
-    "height": 115.5,
-    "width": 365.625,
+    "height": 108,
+    "width": 206,
     "tabOrder": 110
   },
   "visual": {
@@ -95,7 +95,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Return value / gross sales'"
+                  "Value": "'Return / gross sales'"
                 }
               }
             },
@@ -121,7 +121,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "11D"
                 }
               }
             },
@@ -192,7 +192,7 @@
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "14D"
+                  "Value": "8D"
                 }
               }
             }
@@ -223,14 +223,14 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "92D"
+                  "Value": "96D"
                 }
               }
             },
             "shadowBlur": {
               "expr": {
                 "Literal": {
-                  "Value": "7D"
+                  "Value": "4D"
                 }
               }
             },

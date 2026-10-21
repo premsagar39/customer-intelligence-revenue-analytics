@@ -67,6 +67,10 @@ Current report: **4 pages, 26 DAX measures and 21 SQL analyses**.
 
 [Report notes](powerbi/REPORT_NOTES.md) contain the date, scope and interpretation details behind the visuals.
 
+## Dashboard layout
+
+Revenue trends and returns are stacked for a left-to-right review, with market contribution in a separate vertical panel.
+
 ## Dashboard controls
 
 The redesigned report adds page navigation, collapsible synchronized filters, metric and ranking views, a contextual tooltip page and a drillthrough detail page. Light and dark themes are included. Display bookmarks preserve filter selections; existing SQL, DAX and imported data are retained. See the [control guide](docs/dashboard-controls.md) and [Power BI source](powerbi/Customer_Intelligence.Report).
