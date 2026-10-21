@@ -276,8 +276,8 @@
   },
   {
     "path": "powerbi/Customer_Intelligence.SemanticModel/model.bim",
-    "bytes": 43449,
-    "sha256": "ad30cf2e5810fede0e0ba20a838edc736fe567fb7acfc385359b46affbe53620"
+    "bytes": 43415,
+    "sha256": "4a43ad483fadea16ea86ff6659e9d274b77f41250d950ef9fb8440ca11b99cf7"
   },
   {
     "path": "powerbi/MEASURE_DEFINITIONS.md",
@@ -301,8 +301,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3598,
-    "sha256": "089f7eabd0b439116f94d53c2ce663af21c2c9b8e16aaca4da453715a2c93448"
+    "bytes": 4041,
+    "sha256": "ebf01ad2b771216661fd1b149014f1ccf69a86e3af57f7e1a86d8d6cd31113bc"
   },
   {
     "path": "reports/BUSINESS_FINDINGS.md",
@@ -351,13 +351,13 @@
   },
   {
     "path": "reports/PUBLICATION_CHECKLIST.md",
-    "bytes": 698,
-    "sha256": "96889f2fa6a4f9b5727849ffd94134b6aa60aa2362aade61702ad5fbaac237e0"
+    "bytes": 937,
+    "sha256": "b9fcc0aa5e195654e43dddd4a44952734364569ec39f4805c1196272257da190"
   },
   {
     "path": "reports/QA_STATUS.md",
-    "bytes": 1093,
-    "sha256": "8087d56ef16361153f2e507b0dbdf02d92c4c2577fd2ea25ec3d0e9c798b7c81"
+    "bytes": 1195,
+    "sha256": "c0789bf679db3f6036cb5cdd90ee7c98ecf440f2b3dd992f24c4cbe31a111070"
   },
   {
     "path": "reports/report_schema_validation.json",

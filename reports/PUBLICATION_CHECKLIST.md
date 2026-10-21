@@ -1,11 +1,14 @@
-# Publication checklist
+# Publication status
 
-- [ ] Review findings and explain each KPI without reading a script.
-- [ ] Confirm the original data terms before redistribution.
-- [ ] Exclude raw and full processed files, credentials and local cache.
-- [ ] Run pipeline and tests, inspect SQL receipt and native report.
-- [ ] Confirm project status; demand is pending source data.
-- [ ] Inspect preview, README, links and download size.
-- [ ] Approve the exact repository name and public publication.
+The project is published at https://github.com/premsagar39/customer-intelligence-revenue-analytics.
 
-Repository published at https://github.com/premsagar39/customer-intelligence-revenue-analytics. LinkedIn text remains an unposted draft. Full row data and cached PBIX files are excluded from this repository.
+The [LinkedIn project post](https://www.linkedin.com/feed/update/urn:li:activity:7518475830738489344/) is published and included in the profile's Featured section.
+
+The public repository contains code, aggregate results, SQL queries, the executed notebook, figures and editable Power BI source. Raw data, full processed row data, credentials, local caches and cached PBIX files are excluded. Data-source terms and interpretation limits remain documented in the README.
+
+## Before presenting the analysis
+
+- Explain the metric denominators and data exclusions using the saved results.
+- Review the analysis decisions and limitations in the README and business findings.
+- Follow the refresh instructions when opening the Power BI source on another machine.
+- Check source-data terms before redistributing datasets.

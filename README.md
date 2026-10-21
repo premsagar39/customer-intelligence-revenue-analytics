@@ -1,12 +1,18 @@
 # Customer Intelligence and Revenue Analytics
 
-Analyzes 1.067m source rows across both workbook years; signed revenue, customer RFM, cohort retention and product/market review.
+A customer and revenue study of UCI Online Retail II, covering December 2009 to December 2011. It follows the transactions from data-quality checks through SQL analysis, customer segmentation and a three-page Power BI report.
 
 ![Analysis overview](reports/figures/portfolio_overview.png)
 
-**Tools:** Python, pandas, NumPy, MySQL 8, SQLAlchemy, Power Query, Power BI and DAX. The project contains 20 executed MySQL business queries and 24 report measures. Historical analysis; no claimed realized business uplift.
+**Tools:** Python, pandas, NumPy, MySQL 8, SQLAlchemy, Power Query, Power BI and DAX. The project contains 20 executed MySQL business queries and 24 report measures. 
 
-## Business decision
+## Results to review
+
+- **GBP 19.01m net revenue** after GBP 1.46m in returns and credits; Python and MySQL reconcile the same transaction totals.
+- **63.93% of identified gross purchase spend** comes from the highest-spend customer decile.
+- **15.15% of gross revenue** comes from anonymous purchases. Those transactions stay in revenue totals but cannot support customer-level RFM or cohort analysis.
+
+## Analysis question
 
 Which customer and product groups deserve retention and returns review, and how much confidence should we place in incomplete customer identity and partial-month trends?
 

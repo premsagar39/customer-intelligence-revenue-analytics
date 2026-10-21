@@ -13,4 +13,4 @@
 | Forecast leakage protection | Not applicable | No predictive claim |
 | Evidence-based findings | Pass | No fabricated uplift, default estimate or model accuracy |
 | Public GitHub publication | Published | https://github.com/premsagar39/customer-intelligence-revenue-analytics |
-| LinkedIn publication | Not Yet Verified | Drafts only |
+| LinkedIn publication | Published | [Project post](https://www.linkedin.com/feed/update/urn:li:activity:7518475830738489344/); included in LinkedIn Featured |

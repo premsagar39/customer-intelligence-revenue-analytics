@@ -901,7 +901,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "SUM(Transactions[LineRevenue])",
-            "formatString": "\u00a3#,0;\u2212\u00a3#,0",
+            "formatString": "£#,0;−£#,0",
             "lineageTag": "4b03f14f-23ff-4b51-a636-171620a21b67"
           },
           {
@@ -909,7 +909,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "SUM(Transactions[SalesRevenue])",
-            "formatString": "\u00a3#,0",
+            "formatString": "£#,0",
             "lineageTag": "17183e20-a4ae-434b-8a48-7784d68f901c"
           },
           {
@@ -917,7 +917,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "SUM(Transactions[ReturnValue])",
-            "formatString": "\u00a3#,0",
+            "formatString": "£#,0",
             "lineageTag": "f1c5584d-2403-4157-addb-5056ee8bfc66"
           },
           {
@@ -933,7 +933,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "DIVIDE([Gross Revenue],[Sales Orders])",
-            "formatString": "\u00a3#,0.00",
+            "formatString": "£#,0.00",
             "lineageTag": "5b33ad9c-30c3-4287-88a2-d8e46fca014b"
           },
           {
@@ -1013,7 +1013,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "CALCULATE([Net Revenue],DATEADD(Dates[DateKey],-1,MONTH))",
-            "formatString": "\u00a3#,0",
+            "formatString": "£#,0",
             "lineageTag": "4132e59d-0ae4-4803-be8f-000ea373575d"
           },
           {
@@ -1029,7 +1029,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "TOTALYTD([Net Revenue],Dates[DateKey])",
-            "formatString": "\u00a3#,0",
+            "formatString": "£#,0",
             "lineageTag": "bce62120-1975-4ce2-833e-06ff881a92f1"
           },
           {
@@ -1053,7 +1053,7 @@
             "description": "See powerbi/MEASURE_DEFINITIONS.md for context and scope.",
             "displayFolder": "Portfolio Measures",
             "expression": "SUM(Customers[Monetary])",
-            "formatString": "\u00a3#,0",
+            "formatString": "£#,0",
             "lineageTag": "760aa9c6-49d7-4f09-a861-cbfe6dc96d13"
           },
           {
