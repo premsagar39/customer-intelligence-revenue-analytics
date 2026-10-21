@@ -87,8 +87,7 @@
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": false
+        ]
       }
     },
     "visualContainerObjects": {
@@ -105,7 +104,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Product net revenue \u00e2\u20ac\u00a2 scroll to explore'"
+                  "Value": "'Product net revenue â€¢ scroll to explore'"
                 }
               }
             },

@@ -68,8 +68,7 @@
             },
             "direction": "Descending"
           }
-        ],
-        "isDefaultSort": false
+        ]
       }
     },
     "visualContainerObjects": {
@@ -86,7 +85,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'RFM customer segments \u00e2\u20ac\u00a2 fixed snapshot'"
+                  "Value": "'RFM customer segments â€¢ fixed snapshot'"
                 }
               }
             },

@@ -1,10 +1,10 @@
 # Customer Intelligence and Revenue Analytics
 
-A customer and revenue study of UCI Online Retail II, covering December 2009 to December 2011. It follows the transactions from data-quality checks through SQL analysis, customer segmentation and a three-page Power BI report.
+A customer and revenue study of UCI Online Retail II, covering December 2009 to December 2011. It follows the transactions from data-quality checks through SQL analysis, customer segmentation and a four-page Power BI report.
 
 ![Analysis overview](reports/figures/portfolio_overview.png)
 
-**Tools:** Python, pandas, NumPy, MySQL 8, SQLAlchemy, Power Query, Power BI and DAX. The project contains 20 executed MySQL business queries and 24 report measures. 
+**Tools:** Python, pandas, NumPy, MySQL 8, SQLAlchemy, Power Query, Power BI and DAX. The project contains 21 executed MySQL business queries and 26 report measures. 
 
 ## Results to review
 
@@ -22,7 +22,7 @@ Which customer and product groups deserve retention and returns review, and how 
 - [Interactive offline dashboard](reports/Interactive_Dashboard.html) — download and open in a browser; GitHub does not execute HTML.
 - [Native Power BI project](powerbi/Customer_Intelligence.pbip) — download the repository and open in Power BI Desktop.
 - [DAX definitions and scope](powerbi/MEASURE_DEFINITIONS.md)
-- [20 MySQL questions and queries](sql/analysis_queries.sql)
+- [21 MySQL questions and queries](sql/analysis_queries.sql)
 - [Executed notebook](notebooks/01_analysis.ipynb)
 - [Data quality decisions](reports/DATA_QUALITY.md), [dictionary](reports/DATA_DICTIONARY.md) and [MySQL reconciliation](reports/mysql_validation.json)
 
@@ -33,6 +33,7 @@ Use Python 3.11+ and MySQL 8.0+. Install `requirements.txt` in a virtual environ
 ```text
 pip install -r requirements.txt
 python src/pipeline.py --source "PATH_TO_SOURCE_FILE"
+python src/comparison_analysis.py
 python -m pytest tests -q
 ```
 
@@ -53,3 +54,13 @@ Python and MySQL totals reconcile independently. Unit tests cover analytical fai
 Customer anonymity limits RFM coverage. First observed purchase is not confirmed acquisition. Final December is partial. Exact duplicate exclusion and static RFM are documented assumptions.
 
 Code and original documentation use the MIT license. Source datasets retain their own rights. Review the [publication checklist](reports/PUBLICATION_CHECKLIST.md) before sharing. Prepared by Singara Prem Sagar as a portfolio study.
+
+## Comparison view
+
+![Comparison overview](reports/figures/comparison_review.png)
+
+[Open the comparison dashboard](reports/Comparison_Dashboard.html) after downloading the repository; these comparison charts require an internet connection for Plotly.
+
+Customer segment comparison adds a focused review page with two contextual measures, a comparison table, chart tooltips and a project-specific theme. Full-period RFM snapshot at 10 Dec 2011. Index 1.00 matches selected segments; anonymous and return-only records are excluded. SQL Q21 provides the related aggregate analysis. See [enhancement checks](reports/COMPARISON_VALIDATION.md).
+
+Current report: **4 pages, 26 DAX measures and 21 SQL analyses**.

@@ -194,3 +194,19 @@ Format: `#,0`
 ```dax
 SUM(Cohorts[ActiveCustomers])
 ```
+
+## RFM Spend per Customer
+
+Historical gross purchase spend per identified RFM customer.
+
+```dax
+DIVIDE([RFM Gross Spend],[RFM Customers])
+```
+
+## RFM Spend Index
+
+Spend per customer divided by the weighted selected-segment benchmark. Full-period snapshot.
+
+```dax
+VAR B=CALCULATE([RFM Spend per Customer],ALLSELECTED(Customers[Segment])) RETURN DIVIDE([RFM Spend per Customer],B)
+```

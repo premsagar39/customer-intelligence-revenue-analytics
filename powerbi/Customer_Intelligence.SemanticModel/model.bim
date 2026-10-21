@@ -501,6 +501,69 @@
                   }
                 ]
               },
+              "transactions.rfm_gross_spend": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "RFM Gross Spend"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RFM Gross Spend": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.rfm_spend_index": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "RFM Spend Index"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RFM Spend Index": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
+              "transactions.rfm_spend_per_customer": {
+                "Definition": {
+                  "Binding": {
+                    "ConceptualEntity": "Transactions",
+                    "ConceptualProperty": "RFM Spend per Customer"
+                  }
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "RFM Spend per Customer": {
+                      "Source": {
+                        "Agent": "PowerBI.VisualColumnRename",
+                        "Type": "External"
+                      },
+                      "State": "Suggested",
+                      "Weight": 0.9
+                    }
+                  }
+                ]
+              },
               "transactions.rfm_top_decile_spend_share": {
                 "Definition": {
                   "Binding": {
@@ -1087,6 +1150,22 @@
             "expression": "SUM(Cohorts[ActiveCustomers])",
             "formatString": "#,0",
             "lineageTag": "504ccd46-2e05-4c6c-99ff-2e8b5120f16a"
+          },
+          {
+            "name": "RFM Spend per Customer",
+            "description": "Historical gross purchase spend per identified RFM customer.",
+            "displayFolder": "Comparisons",
+            "expression": "DIVIDE([RFM Gross Spend],[RFM Customers])",
+            "formatString": "£#,0.00",
+            "lineageTag": "b0603b5a-39bd-51d3-b007-f151fb238971"
+          },
+          {
+            "name": "RFM Spend Index",
+            "description": "Spend per customer divided by the weighted selected-segment benchmark. Full-period snapshot.",
+            "displayFolder": "Comparisons",
+            "expression": "VAR B=CALCULATE([RFM Spend per Customer],ALLSELECTED(Customers[Segment])) RETURN DIVIDE([RFM Spend per Customer],B)",
+            "formatString": "0.00x",
+            "lineageTag": "13a7e632-a92e-5cfa-a4c9-a12c3a6eeddc"
           }
         ],
         "partitions": [

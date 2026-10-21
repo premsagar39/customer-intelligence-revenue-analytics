@@ -1,7 +1,30 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.3.0/schema.json",
-  "themeCollection": {},
+  "themeCollection": {
+    "customTheme": {
+      "name": "FocusedTheme",
+      "reportVersionAtImport": {
+        "visual": "2.8.0",
+        "page": "2.1.0",
+        "report": "3.3.0"
+      },
+      "type": "RegisteredResources"
+    }
+  },
   "settings": {
     "useEnhancedTooltips": false
-  }
+  },
+  "resourcePackages": [
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "FocusedTheme",
+          "path": "FocusedTheme",
+          "type": "CustomTheme"
+        }
+      ]
+    }
+  ]
 }

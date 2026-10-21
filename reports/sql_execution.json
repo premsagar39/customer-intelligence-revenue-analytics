@@ -179,5 +179,16 @@
       "Orders",
       "NetRevenue"
     ]
+  },
+  "Q21": {
+    "rows": 6,
+    "columns": [
+      "Segment",
+      "Customers",
+      "GrossSpend",
+      "SpendPerCustomer",
+      "SpendIndex",
+      "SpendRank"
+    ]
   }
 }

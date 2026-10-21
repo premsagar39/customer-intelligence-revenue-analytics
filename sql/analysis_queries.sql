@@ -100,3 +100,12 @@ SELECT CustomerID,Recency,Frequency,Monetary FROM customers WHERE Segment='At ri
 
 -- Q20: Customers recorded in multiple countries
 SELECT CustomerID,COUNT(DISTINCT Country) Countries,COUNT(DISTINCT CASE WHEN LineType='Sale' THEN InvoiceNo END) Orders,SUM(LineRevenue) NetRevenue FROM transactions WHERE CustomerID<>'UNKNOWN' GROUP BY CustomerID HAVING COUNT(DISTINCT Country)>1 ORDER BY NetRevenue DESC;
+
+-- Q21: Compare full-period RFM segments against a customer-weighted benchmark
+WITH segments AS (
+ SELECT Segment,COUNT(*) Customers,SUM(Monetary) GrossSpend,AVG(Monetary) SpendPerCustomer
+ FROM customers WHERE Frequency IS NOT NULL GROUP BY Segment
+)
+SELECT *,SpendPerCustomer/NULLIF(SUM(GrossSpend) OVER()/SUM(Customers) OVER(),0) SpendIndex,
+ DENSE_RANK() OVER(ORDER BY SpendPerCustomer DESC) SpendRank
+FROM segments ORDER BY SpendPerCustomer DESC,Segment;

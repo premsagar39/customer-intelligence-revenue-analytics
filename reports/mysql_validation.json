@@ -1,6 +1,6 @@
 {
   "engine": "MySQL 8.0.46",
-  "queries_executed": 20,
+  "queries_executed": 21,
   "all_kpi_reconciliations_pass": true,
   "checks": {
     "GrossRevenue": {
@@ -33,5 +33,6 @@
     "purchasing_customer_denominator": true,
     "top_decile_share": true,
     "full_observed_cohort_grid": true
-  }
+  },
+  "Q21_independent_reconciliation": "Pass"
 }

@@ -1,47 +1,77 @@
-Net Revenue = SUM(Transactions[LineRevenue])
+Net Revenue =
+SUM(Transactions[LineRevenue])
 
-Gross Revenue = SUM(Transactions[SalesRevenue])
+Gross Revenue =
+SUM(Transactions[SalesRevenue])
 
-Return Value = SUM(Transactions[ReturnValue])
+Return Value =
+SUM(Transactions[ReturnValue])
 
-Sales Orders = CALCULATE(DISTINCTCOUNT(Transactions[InvoiceNo]),Transactions[LineType]="Sale")
+Sales Orders =
+CALCULATE(DISTINCTCOUNT(Transactions[InvoiceNo]),Transactions[LineType]="Sale")
 
-Average Order Value = DIVIDE([Gross Revenue],[Sales Orders])
+Average Order Value =
+DIVIDE([Gross Revenue],[Sales Orders])
 
-Return to Gross = DIVIDE([Return Value],[Gross Revenue])
+Return to Gross =
+DIVIDE([Return Value],[Gross Revenue])
 
-Accepted Lines = COUNTROWS(Transactions)
+Accepted Lines =
+COUNTROWS(Transactions)
 
-Units Sold = CALCULATE(SUM(Transactions[Quantity]),Transactions[LineType]="Sale")
+Units Sold =
+CALCULATE(SUM(Transactions[Quantity]),Transactions[LineType]="Sale")
 
-Purchasing Customers = CALCULATE(DISTINCTCOUNT(Transactions[CustomerID]),Transactions[LineType]="Sale",Transactions[CustomerID]<>"UNKNOWN")
+Purchasing Customers =
+CALCULATE(DISTINCTCOUNT(Transactions[CustomerID]),Transactions[LineType]="Sale",Transactions[CustomerID]<>"UNKNOWN")
 
-Repeat Customers = COUNTROWS(FILTER(VALUES(Transactions[CustomerID]),Transactions[CustomerID]<>"UNKNOWN" && CALCULATE([Sales Orders])>=2))
+Repeat Customers =
+COUNTROWS(FILTER(VALUES(Transactions[CustomerID]),Transactions[CustomerID]<>"UNKNOWN" && CALCULATE([Sales Orders])>=2))
 
-Repeat Customer Share = DIVIDE([Repeat Customers],[Purchasing Customers])
+Repeat Customer Share =
+DIVIDE([Repeat Customers],[Purchasing Customers])
 
-Anonymous Revenue Share = DIVIDE(CALCULATE([Gross Revenue],Transactions[CustomerID]="UNKNOWN"),[Gross Revenue])
+Anonymous Revenue Share =
+DIVIDE(CALCULATE([Gross Revenue],Transactions[CustomerID]="UNKNOWN"),[Gross Revenue])
 
-Active Products = DISTINCTCOUNT(Transactions[ProductKey])
+Active Products =
+DISTINCTCOUNT(Transactions[ProductKey])
 
-Markets = DISTINCTCOUNT(Transactions[Country])
+Markets =
+DISTINCTCOUNT(Transactions[Country])
 
-Net Revenue Previous Month = CALCULATE([Net Revenue],DATEADD(Dates[DateKey],-1,MONTH))
+Net Revenue Previous Month =
+CALCULATE([Net Revenue],DATEADD(Dates[DateKey],-1,MONTH))
 
-Net Revenue MoM = DIVIDE([Net Revenue]-[Net Revenue Previous Month],[Net Revenue Previous Month])
+Net Revenue MoM =
+DIVIDE([Net Revenue]-[Net Revenue Previous Month],[Net Revenue Previous Month])
 
-Net Revenue YTD = TOTALYTD([Net Revenue],Dates[DateKey])
+Net Revenue YTD =
+TOTALYTD([Net Revenue],Dates[DateKey])
 
-Customer Revenue Share = DIVIDE([Gross Revenue],CALCULATE([Gross Revenue],REMOVEFILTERS(Customers)))
+Customer Revenue Share =
+DIVIDE([Gross Revenue],CALCULATE([Gross Revenue],REMOVEFILTERS(Customers)))
 
-RFM Customers = COUNTROWS(FILTER(Customers,NOT ISBLANK(Customers[Frequency])))
+RFM Customers =
+COUNTROWS(FILTER(Customers,NOT ISBLANK(Customers[Frequency])))
 
-RFM Gross Spend = SUM(Customers[Monetary])
+RFM Gross Spend =
+SUM(Customers[Monetary])
 
-RFM Mean Recency = AVERAGE(Customers[Recency])
+RFM Mean Recency =
+AVERAGE(Customers[Recency])
 
-RFM Top Decile Spend Share = VAR C=FILTER(ALL(Customers),NOT ISBLANK(Customers[Monetary])) VAR N=ROUNDUP(COUNTROWS(C)*0.1,0) RETURN DIVIDE(SUMX(TOPN(N,C,Customers[Monetary],DESC,Customers[CustomerID],ASC),Customers[Monetary]),SUMX(C,Customers[Monetary]))
+RFM Top Decile Spend Share =
+VAR C=FILTER(ALL(Customers),NOT ISBLANK(Customers[Monetary])) VAR N=ROUNDUP(COUNTROWS(C)*0.1,0) RETURN DIVIDE(SUMX(TOPN(N,C,Customers[Monetary],DESC,Customers[CustomerID],ASC),Customers[Monetary]),SUMX(C,Customers[Monetary]))
 
-Cohort Retention = DIVIDE(SUM(Cohorts[ActiveCustomers]),SUM(Cohorts[CohortSize]))
+Cohort Retention =
+DIVIDE(SUM(Cohorts[ActiveCustomers]),SUM(Cohorts[CohortSize]))
 
-Cohort Active Customers = SUM(Cohorts[ActiveCustomers])
+Cohort Active Customers =
+SUM(Cohorts[ActiveCustomers])
+
+RFM Spend per Customer =
+DIVIDE([RFM Gross Spend],[RFM Customers])
+
+RFM Spend Index =
+VAR B=CALCULATE([RFM Spend per Customer],ALLSELECTED(Customers[Segment])) RETURN DIVIDE([RFM Spend per Customer],B)
