@@ -1,5 +1,0 @@
-{
-  "passed": 3,
-  "source": "pytest behavioral tests with explicit synthetic fixtures",
-  "real_forecast_performance": null
-}
